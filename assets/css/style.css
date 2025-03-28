@@ -320,6 +320,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 30px;
+	margin-right: 20px;
 }
 
 .avatar-box img{
