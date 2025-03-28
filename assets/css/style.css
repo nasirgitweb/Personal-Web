@@ -558,7 +558,7 @@ main {
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
-  color: var(--light-gray);
+  color: rgb(255, 255, 255);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
