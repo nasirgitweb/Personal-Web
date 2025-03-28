@@ -218,7 +218,7 @@ article.active {
 
 .h3 { font-size: var(--fs-2); color: var(--light-gray-70);}
 
-.h4 { font-size: var(--fs-4); }
+.h4 { font-size: var(--fs-4); color: var(--light-gray-70);}
 
 .h5 {
   font-size: var(--fs-7);
