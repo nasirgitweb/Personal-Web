@@ -390,7 +390,7 @@ main {
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
+  gap: 9px;
 }
 
 .contact-item {
