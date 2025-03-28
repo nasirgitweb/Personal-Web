@@ -163,7 +163,7 @@ article {
 
 .separator {
   width: 100%;
-  height: 3px;
+  height: 2px;
   background: var(--jet);
   margin: 16px 0;
 }
