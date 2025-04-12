@@ -512,7 +512,7 @@ main {
 .about-text p{
   margin-bottom: 15px;
   color: white;
-	font-weight: var(--fw-400);
+  font-weight: var(--fw-500);
 }
 
 
