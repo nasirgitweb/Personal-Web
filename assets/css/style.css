@@ -144,7 +144,11 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
-
+.auto-type{
+  color: #fc1100;
+  font-weight: 800;
+  font-size: 15px;
+}
 
 
 /*-----------------------------------*\
