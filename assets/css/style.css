@@ -6955,6 +6955,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
+.testimonials-avatar-box{
+  border-radius: 22px;
+}
+
 
 
   /**
