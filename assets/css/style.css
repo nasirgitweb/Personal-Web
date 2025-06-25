@@ -145,7 +145,7 @@ body { background: var(--smoky-black); }
 
 
 .auto-type{
-  color: #fc1100;
+  color: #ffffff;
   font-weight: 800;
   font-size: 15px;
 }
@@ -343,15 +343,32 @@ main {
   gap: 4px;
 }
 
+/* Button container center align */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* দুই বাটনের মাঝে গ্যাপ */
+  margin-top: 15px;
+}
+
+/* Button style */
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-400);
-  width: max-content;
-  padding: 3px 12px;
+  padding: 6px 18px;
   border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
 }
+
+/* Hover effect */
+.info-content .title:hover {
+  background: var(--blue-crayola); /* তোমার প্রজেক্টের কোনো হাইলাইট কালার */
+}
+
 
 .info_more-btn {
   position: absolute;
@@ -2103,13 +2120,6 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
-.auto-type{
-  color: #fc1100;
-  font-weight: 800;
-  font-size: 15px;
-}
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -4002,13 +4012,6 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
-.auto-type{
-  color: #fc1100;
-  font-weight: 800;
-  font-size: 15px;
-}
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -5899,13 +5902,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-.auto-type{
-  color: #fc1100;
-  font-weight: 800;
-  font-size: 15px;
-}
 
 
 /*-----------------------------------*\
@@ -7800,13 +7796,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-.auto-type{
-  color: #fc1100;
-  font-weight: 800;
-  font-size: 15px;
-}
 
 
 /*-----------------------------------*\
