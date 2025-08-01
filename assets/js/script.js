@@ -157,3 +157,25 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// preloader on off
+  window.addEventListener("load", () => {
+    const pre = document.getElementById("preloader");
+    if (!pre) return;
+    pre.classList.add("hidden");
+    setTimeout(() => {
+      pre.remove();
+    }, 500); // fade-out duration
+  });
+
+  // Fallback in case load hangs
+  setTimeout(() => {
+    const pre = document.getElementById("preloader");
+    if (pre && !pre.classList.contains("hidden")) {
+      pre.classList.add("hidden");
+      setTimeout(() => {
+        pre.remove();
+      }, 500);
+    }
+  }, 6000); // max wait 6s
