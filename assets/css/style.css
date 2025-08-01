@@ -5,6 +5,7 @@
 
 :root {
 
+
   /**
    * colors
    */
@@ -105,9 +106,6 @@
 }
 
 
-
-
-
 /* css for preloader start*/
         /* preloader */
             /* Preloader */
@@ -149,6 +147,7 @@
 
         /* preloader */
 /* css for preloader end */
+
 
 /*-----------------------------------*\
   #RESET
@@ -225,8 +224,9 @@ article {
   width: 100%;
   height: 3px;
   background: var(--jet);
-  margin: 12px 0;
-}
+  margin-top: 30px;
+  margin-bottom: 30px;
+} 
 
 .icon-box {
   position: relative;
@@ -385,6 +385,7 @@ main {
 	margin-right: 20px;
 }
 
+
 .avatar-box img{
   border-radius: 30px;
 }
@@ -407,6 +408,8 @@ main {
   margin-top: 15px;
 }
 
+
+
 /* Button style */
 .info-content .title {
   color: var(--white-1);
@@ -422,6 +425,7 @@ main {
 
 /* Hover effect */
 .info-content .title:hover {
+ 
   background: var(--blue-crayola); /* তোমার প্রজেক্টের কোনো হাইলাইট কালার */
 }
 
@@ -506,7 +510,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
   padding-left: 7px;
 }
 
@@ -1349,7 +1353,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
-
+.modal-content {
+  position: relative;
+  background: rgb(0, 0, 0);
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 90%;
+}
 
 
 
@@ -1369,8 +1380,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
-
-
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -1378,17 +1387,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-img,
   .blog-banner-box { height: auto; }
 
-}
+  .separator2 {
+    width: 100%;
+    height: 3px;
+    background: var(--jet);
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
 
-.modal-content {
-  position: relative;
-  background: rgb(0, 0, 0);
-  padding: 1rem;
-  border-radius: 8px;
-  max-width: 100%;
-  max-height: 90%;
 }
-
 
 
 
@@ -1418,8 +1425,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   }
 
-
-
   /**
    * #REUSED STYLE
    */
@@ -1448,6 +1453,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
+  .separator2 {
+    width: 100%;
+    height: 3px;
+    background: var(--jet);
+    margin-top: 22px;
+    margin-bottom: 22px;
+  } 
 
   /**
    * #MAIN
@@ -1660,7 +1672,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-content { padding: 25px; }
 
 
-
   /**
    * #CONTACT
    */
@@ -1716,7 +1727,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
-
 
 
   /**
@@ -2027,7 +2037,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-
 
 
 /* --------------------------------------------------------------- */
