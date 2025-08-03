@@ -699,10 +699,11 @@ main {
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
   box-shadow: var(--shadow-1);
+  border-radius: 30%;
 }
 
 .img-review {
-  border-radius: 25%;
+  border-radius: 30%;
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -1605,7 +1606,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
-    border-radius: 20px;
   }
 
   .testimonials-avatar-box img { width: 80px; }
