@@ -620,12 +620,24 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--border-gradient-onyx, #1f2d55);
   padding: 20px;
   border-radius: 14px;
-  box-shadow: var(--shadow-2);
   z-index: 1;
   cursor: pointer;
+  overflow: hidden;
+  transition: transform .25s ease, background .25s ease, box-shadow .25s ease, border .25s ease;
+  transform-origin: center center;
+  color: #e8ecff;
+  border: 2px solid transparent; /* ডিফল্ট বর্ডার রাখছি */
+}
+
+.service-item:hover {
+  transform: scale(1.04);
+  background: var(--light-gray-70);
+  color: #000;
+  border-color: #6366f1; /* মোটা ও কালারফুল বর্ডার */
+  box-shadow: 0 0 10px 3px rgba(99, 102, 241, 0.5); /* হালকা glow */
 }
 
 .service-item::before {
