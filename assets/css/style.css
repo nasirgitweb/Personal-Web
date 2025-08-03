@@ -426,7 +426,7 @@ main {
 /* Hover effect */
 .info-content .title:hover {
   color: black;
-  background: var(--vegas-gold); /* তোমার প্রজেক্টের কোনো হাইলাইট কালার */
+  background: var(--light-gray-70); /* তোমার প্রজেক্টের কোনো হাইলাইট কালার */
   font-weight: 900;
 }
 
